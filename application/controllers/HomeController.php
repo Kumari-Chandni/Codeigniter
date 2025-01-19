@@ -44,12 +44,13 @@ class HomeController extends CI_Controller {
         $this->load->helper('form');
         $this->load->view('form');
     }
-    public function myfunc($name=''){
-        $data['name'] = $name;
-        // $var['name'] = "Heavy Coding";
-        // $data['name'] = "Heavy Coding";
-        $data['names'] = array("heavy","youtube","coding");
-        $this->load->view('homepage',$data);
+    public function myfunc(){
+        echo "hi";
+        // $data['name'] = $name;
+        // // $var['name'] = "Heavy Coding";
+        // // $data['name'] = "Heavy Coding";
+        // $data['names'] = array("heavy","youtube","coding");
+        // // $this->load->view('homepage',$data);
     }
 
 }
